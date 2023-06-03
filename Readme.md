@@ -3,7 +3,8 @@
 #### Run the server
 
 Inside the **cmd** folder run the below command
-`go run main.go`
+
+```go run main.go```
 
 ### Folder Structure
 
@@ -27,6 +28,7 @@ pkg
 ### Paths
 
 GET `/data/` -> Get the All the data
+
 GET `/data/{dataId}` -> Get a particular data
 
 POST `/data/` -> Create new entry into the DB
